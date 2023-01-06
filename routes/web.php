@@ -17,13 +17,17 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/about', function () {
-    return '<h1>about us</h1>';
-});
+// Route::get('/about', function () {
+//     return '<h1>about us</h1>';
+// });
 
-Route::get('/user/{user}', function ($user) {
-    return 'hai, ' . $user;
-});
-Route::get('/greeting', function () {
+// Route::get('/user/{user}', function ($user) {
+//     return 'hai, ' . $user;
+// });
+// Route::get('/greeting', function () {
+//     return 'hai, selamat siang';
+// });
+
+Route::get('/warga', function () {
     return 'hai, selamat siang';
 });
